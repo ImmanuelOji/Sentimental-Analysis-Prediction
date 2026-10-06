@@ -1,0 +1,55 @@
+{
+  "data": {
+    "raw_rows": 3886,
+    "pos_neg_rows": 1642,
+    "final_rows": 1386,
+    "class_counts": {
+      "negative": 1032,
+      "positive": 354
+    }
+  },
+  "lr_best_params": {
+    "clf__C": "3",
+    "tfidf__word__ngram_range": "(1, 1)"
+  },
+  "lr_cv_macro_f1": 0.7544551236347575,
+  "bilstm_seed_macro_f1": [
+    0.7662186749843279,
+    0.7401581040191372,
+    0.7880925736713214
+  ],
+  "top_negative_words": [
+    "fuck",
+    "shit",
+    "stop",
+    "hate",
+    "what",
+    "hey",
+    "wtf",
+    "be",
+    "when",
+    "your",
+    "or",
+    "may",
+    "not",
+    "tv",
+    "as"
+  ],
+  "top_positive_words": [
+    "love",
+    "best",
+    "great",
+    "new",
+    "awesome",
+    "amazing",
+    "for",
+    "good",
+    "enjoying",
+    "thanks",
+    "got",
+    "share",
+    "tablets",
+    "tweet",
+    "looks"
+  ]
+}
